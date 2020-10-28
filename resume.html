@@ -325,27 +325,32 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <footer class="w3-container w3-indigo w3-center w3-margin-top">
   <p>Find me on social media.</p>
-  <i class="fab fa-linkedin fa-lg w3-hover-opacity"></i>&nbsp;&nbsp;
-  <i class="fab fa-facebook fa-lg w3-hover-opacity"></i>&nbsp;&nbsp;
-  <i class="fab fa-twitter fa-lg w3-hover-opacity"></i>&nbsp;&nbsp;
+  <p>
+    <a href="https://www.linkedin.com/in/lyehengfoo/" target="_blank"><i class="fab fa-linkedin fa-lg w3-hover-opacity"></i></a>&nbsp;&nbsp;
+    <a href="https://www.facebook.com/lyehengfoo" target="_blank"><i class="fab fa-facebook fa-lg w3-hover-opacity"></i></a>&nbsp;&nbsp;
+    <a href="https://twitter.com/lyehengfoo" target="_blank"><i class="fab fa-twitter fa-lg w3-hover-opacity"></i></a>&nbsp;&nbsp;
+    <a href="https://github.com/lyehengfoo" target="_blank"><i class="fab fa-github fa-lg w3-hover-opacity"></i></a>&nbsp;&nbsp;
+  </p>
   <p>Powered by <a href="https://github.com/" target="_blank">GitHub</a> and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">W3.CSS</a></p>
 </footer>
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
+<!-- JavaScript -->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
 </script>
 
 </body>
