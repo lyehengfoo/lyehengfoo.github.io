@@ -47,6 +47,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.onlyprint {
+  display: inline;
+}
+
+@media print {
+  .dontprint {
+    display: none;
+  }
+  .onlyprint {
+    display: inline;
+  }
+}
 </style>
 
 <body class="w3-light-grey">
@@ -80,49 +93,68 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Skills</b></p>
           <p>Web Design (HTML, CSS & JavaScript)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <!-- <div class="w3-round-xlarge w3-indigo" style="height:16px;width:100%"></div> -->
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
           <p>WordPress</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
           <p>Programming (PHP, Perl, Java, C/C++ & Tcl)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
           <p>Design Automation</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
           <p>Linux & Cloud Servers (GCP, AWS)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
           </div>
           <p>Physical Design Engineering</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
           </div>
           <p>App & Software Development</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:75%">75%</div>
           </div>
           <p>Hardware & Arduino Automation</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:66%">66%</div>
           </div>
           <hr>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages</b></p>
-          <p>
-            English             - Written & Spoken<br>
-            Malay Language      - Written & Spoken<br>
-            Chinese (Hokkien)   - Spoken<br>
-            Chinese (Cantonese) - Spoken<br>
-          </p>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages (Written)</b></p>
+          <p>English</p>
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-round-xlarge w3-indigo" style="height:16px;width:100%"></div>
+          </div>
+          <p>Malay Language</p>
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-round-xlarge w3-indigo" style="height:16px;width:90%"></div>
+          </div>
+          <hr>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages (Spoken)</b></p>
+          <p>English</p>
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-round-xlarge w3-indigo" style="height:16px;width:100%"></div>
+          </div>
+          <p>Malay Language</p>
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-round-xlarge w3-indigo" style="height:16px;width:90%"></div>
+          </div>
+          <p>Chinese (Hokkien & Cantonese)</p>
+          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-round-xlarge w3-indigo" style="height:16px;width:75%"></div>
+          </div>
+          <br>
+
         </div>
-      </div><br>
+      </div>
+      <br>
 
     <!-- End Left Column -->
     </div>
@@ -135,7 +167,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Professional Services / Freelancer</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2017 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2017 - <span class="w3-tag w3-indigo w3-round-xlarge">Current</span></h6>
           <button class="accordion">Web Developer, Cloud Services Developer, Technical Coaching Provider & Mobile App Developer</button>
           <div class="panel">
             <p>
@@ -152,7 +184,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Full Stack Web Developer / Freelancer</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2017 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2017 - <span class="w3-tag w3-indigo w3-round w3-round-xlarge">Current</span></h6>
           <button class="accordion">Full Stack Web Development, SEO & Website Optimization</button>
           <div class="panel">
             <p>
@@ -240,7 +272,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-chalkboard-teacher fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Teaching/Coaching Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Web Developer / Freelance</b></h5>
-          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2017 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2017 - <span class="w3-tag w3-indigo w3-round w3-round-xlarge">Current</span></h6>
           <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
           <hr>
         </div>
@@ -304,8 +336,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5 class="w3-opacity"><b>St. Michael's Institution Secondary School, Ipoh, Perak. Malaysia</b></h5>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1987 - 1991</h6>
           <p>
-            SRP - 8 A1's<br>
             SPM - 6 A1's and 2 C3's<br>
+            SRP - 8 A1's<br>
           </p>
           <br>
         </div>
@@ -316,15 +348,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <p>
             Data Analysis Using Python<br>
-            <em>&rarr; Coursera Certified - Sep 2020</em><br>
+            <em>&raquo; Coursera Certified - Sep 2020</em><br>
           </p>
           <p>
             Increase SEO Traffic with WordPress<br>
-            <em>&rarr; Coursera Certified - Sep 2020</em><br>
+            <em>&raquo; Coursera Certified - Sep 2020</em><br>
           </p>
           <p>
             Use Canva to Create Marketing Designs<br>
-            <em>&rarr; Coursera Certified - May 2020</em><br>
+            <em>&raquo; Coursera Certified - May 2020</em><br>
           </p>
           <hr>
         </div>
@@ -335,19 +367,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <p>
             Adaptive Vector Median Filter (AVMF) and Adaptive Vector with Trimmed-Mean Filtering (AVTMF) for Colour Images<br>
-            <em>&rarr; Robotics, Vision and Signal Processing (ROVISP) Conference 2005</em><br>
+            <em>&raquo; Robotics, Vision and Signal Processing (ROVISP) Conference 2005</em><br>
           </p>
           <p>
             Structured ASIC Macro Cell Timing Model Characterization using NanoTime<br>
-            <em>&rarr; Synopsys SNUG 2008</em><br>
+            <em>&raquo; Synopsys SNUG 2008</em><br>
           </p>
           <p>
             Improved Technique for Merging GDSII Files Exported from Cadence DFII Layout Database <br>
-            <em>&rarr; Altera Technical Symposium 2009</em><br>
+            <em>&raquo; Altera Technical Symposium 2009</em><br>
           </p>
           <p>
             Parasitic Extraction Methodology of Bump Pad Routing<br>
-            <em>&rarr; Altera Technical Symposium 2009</em><br>
+            <em>&raquo; Altera Technical Symposium 2009</em><br>
           </p>
           <hr>
         </div>
