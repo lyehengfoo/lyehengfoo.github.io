@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 
 <style>
+
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 .accordion {
@@ -46,18 +47,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  border: solid #bbb 1px;
 }
 
-.onlyprint {
-  display: inline;
+.onlyforprint {
+  display: none;
 }
 
 @media print {
-  .dontprint {
+  /* For printout - Hide summary, since already show the panel full details. */
+  button.accordion {
     display: none;
   }
-  .onlyprint {
+  /* For printout, expand all the hidden panels. */
+  .panel {
+    max-height: 600px;
+  }
+  .onlyforprint {
     display: inline;
+  }
+  .onlyforscreen {
+    display: none;
   }
 }
 </style>
@@ -92,62 +102,62 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Skills</b></p>
-          <p>Web Design (HTML, CSS & JavaScript)</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>Web Design (HTML, CSS & JS) <span class="onlyforprint w3-right">90%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
-          <p>WordPress</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>WordPress <span class="onlyforprint w3-right">90%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
-          <p>Programming (PHP, Perl, Java, C/C++ & Tcl)</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>Programming (PHP, Perl, Java, C/C++ & Tcl) <span class="onlyforprint w3-right">90%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
-          <p>Design Automation</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>Design Automation <span class="onlyforprint w3-right">90%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
           </div>
-          <p>Linux & Cloud Servers (GCP, AWS)</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>Linux & Cloud Servers (GCP, AWS) <span class="onlyforprint w3-right">80%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
           </div>
-          <p>Physical Design Engineering</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>Physical Design Engineering <span class="onlyforprint w3-right">80%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
           </div>
-          <p>App & Software Development</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>App & Software Development <span class="onlyforprint w3-right">75%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:75%">75%</div>
           </div>
-          <p>Hardware & Arduino Automation</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <p>Hardware & Arduino Automation <span class="onlyforprint w3-right">66%</span></p>
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:66%">66%</div>
           </div>
           <hr>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages (Written)</b></p>
           <p>English</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-round-xlarge w3-indigo" style="height:16px;width:100%"></div>
           </div>
           <p>Malay Language</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-round-xlarge w3-indigo" style="height:16px;width:90%"></div>
           </div>
           <hr>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages (Spoken)</b></p>
           <p>English</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-round-xlarge w3-indigo" style="height:16px;width:100%"></div>
           </div>
           <p>Malay Language</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-round-xlarge w3-indigo" style="height:16px;width:90%"></div>
           </div>
           <p>Chinese (Hokkien & Cantonese)</p>
-          <div class="dontprint w3-light-grey w3-round-xlarge w3-small">
+          <div class="onlyforscreen w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-round-xlarge w3-indigo" style="height:16px;width:75%"></div>
           </div>
           <br>
@@ -292,38 +302,53 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Education</h2>
+
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University Science of Malaysia, Penang, Malaysia</b></h5>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2002-2005</h6>
           <p>
-            Postgraduate - Master of Science (MSc) in Computer Science<br>
+            Master of Science (MSc) in Computer Science<br>
             <em>Major: Artificial Intelligence and Image Processing - CGPA 3.5</em><br>
-            <ul>
-              <li>Courses Taken:<br>
-              <li style="list-style-type:none">Advanced Distributed Systems Concepts & Design, Advanced Data Communication & Computer Networks, Neural Networks & Genetic Algorithms, Computer Security & Cryptography, Intelligent Document Processing, Computer Vision & Image Processing and Independent Study</li>
-              <li>Research Project: Colour Image Enhancement Technique (Noise Removal For Colour Images)</li>
-            </ul>
           </p>
+          <button class="accordion">Course Details</button>
+          <div class="panel">
+            <p>
+              Modules Taken:<br>
+              <ul>
+                <li>Advanced Distributed Systems Concepts & Design</li>
+                <li>Advanced Data Communication & Computer Networks</li>
+                <li>Neural Networks & Genetic Algorithms</li>
+                <li>Computer Security & Cryptography</li>
+                <li>Intelligent Document Processing</li>
+                <li>Computer Vision & Image Processing</li>
+              </ul>
+              Research Project: Colour Image Enhancement Technique (Noise Removal For Colour Images)<br>
+            </p>
+          </ul>
+          </div>
           <hr>
         </div>
+
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University of Warwick, Coventry, United Kingdom</b></h5>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1994 - 1997</h6>
           <p>
-            Undergraduate - Bachelor of Engineering (BEng) in Computer Systems Engineering<br>
-            <em>First Class Honours Degree</em>
-            <ul>
-              <li>Awarded <strong>Texas Instrument Prize</strong> for the <em>Best Overall Graduating Student</em> in Computer Systems Engineering for Year 1997.</li>
-              <li>Courses Taken:<br>
-                <ul>
-                  <li>1st Year Modules - Engineering 1, CSE 2, Computer Systems I, Logic Design, Programming II, Design of Information Structures, Semiconductor Device Electronics & Laboratory, Engineering Laboratory, and Industrial Systems.</li>
-                  <li>2nd Year Modules - Computer Systems II, Introduction to Software Engineering, Concurrent programming concepts, Database Systems, Real-time Systems, Signal Processing, Control and Communication, Engineering Laboratory, Engineering Systems Analysis, Electronic Design I, and Automation and Robotics.</li>
-                  <li>3rd year Modules - VLSI System Design, VLSI Architecture and Algorithms, Digital Signal Processing, Modelling and Simulation, Control I, and Control II.</li>
-                </ul>
-              </li>
-              <li>Final Year Project: Hardware Design for Lithographic Pattern Generator</li>
-            </ul>
+            Bachelor of Engineering (BEng) in Computer Systems Engineering<br>
+            <em>First Class Honours Degree</em><br>
+            Award: <strong>Texas Instrument Prize</strong> for the <em>Best Overall Graduating Student</em> in Computer Systems Engineering for Year 1997.<br>
           </p>
+          <button class="accordion">Course Details</button>
+          <div class="panel">
+            <p>
+              Modules Taken:<br>
+              <ul>
+                <li>1st Year Modules - Engineering 1, CSE 2, Computer Systems I, Logic Design, Programming II, Design of Information Structures, Semiconductor Device Electronics & Laboratory, Engineering Laboratory, and Industrial Systems.</li>
+                <li>2nd Year Modules - Computer Systems II, Introduction to Software Engineering, Concurrent programming concepts, Database Systems, Real-time Systems, Signal Processing, Control and Communication, Engineering Laboratory, Engineering Systems Analysis, Electronic Design I, and Automation and Robotics.</li>
+                <li>3rd year Modules - VLSI System Design, VLSI Architecture and Algorithms, Digital Signal Processing, Modelling and Simulation, Control I, and Control II.</li>
+              </ul>
+              Final Year Project: Hardware Design for Lithographic Pattern Generator<br>
+            </p>
+          </div>
           <hr>
         </div>
         <div class="w3-container">
