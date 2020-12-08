@@ -16,8 +16,13 @@ nav {
   display: block;
   color: #777;
   background-color: #f7f7f7;
+  text-align: center;
   padding: 10px 16px;
   text-decoration: none;
+}
+nav a:hover {
+  color: #f7f7f7;
+  background-color: #777;
 }
 
 .accordion {
@@ -86,16 +91,16 @@ nav {
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <div class="w3-row-padding">
-	<nav class="w3-light-grey w3-text-indigo">
+	<nav class="onlyforscreen  w3-light-grey w3-text-indigo">
 	  <a href="/">Home</a> |
-      <a href="/#blog">Blog</a> |
-      <a href="/#contact">Contact</a> |
-      <a href="#">Resume</a>
+      <a href="/blog.html">Blog</a> |
+      <a href="/contact.html">Contact</a> |
+      <a href="#top">Resume</a>
 	</nav>
   </div>
 
   <!-- The Grid -->
-  <div class="w3-row-padding">
+  <div id="top" class="w3-row-padding">
 
     <!-- Left Column -->
     <div class="w3-third">
