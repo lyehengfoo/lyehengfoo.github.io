@@ -1,29 +1,24 @@
-# Deep-fried Jekyll Theme
-
-Deep-fried is a minimalist Jekyll theme optimized for readability and performance.
-
-![Screenshot layouts](screenshot-layouts.png)
-
-Compatible with [GitHub Pages](https://pages.github.com), [Deep-fried](https://github.com/kiltandcode/deep-fried-jekyll-theme) was created by [Steven McLintock](http://www.kiltandcode.com) and is named after *"Scotland’s craziest takeaway"*, the delicious and ridiculously unhealthy [Deep-fried Mars bar](https://en.wikipedia.org/wiki/Deep-fried_Mars_bar).
-
-## How to Use the Deep-fried Jekyll Theme
+---
+title: "How to Use the Deep-fried Jekyll Theme"
+date: 2021-06-09 14:52:00:00 +00:00
+author: steven
+layout: post
+image: /assets/img/2021/06/deep-fried.png
+icon: deep-fried
+tags: deep-fried
+---
 
 To use the Deep-fried Jekyll theme, simply fork the [GitHub](https://github.com) 
-repository located at [github.com/kiltandcode/deep-fried-jekyll-theme](https://github.com/kiltandcode/deep-fried-jekyll-theme) 
+repository located at 
+[github.com/kiltandcode/deep-fried-jekyll-theme](https://github.com/kiltandcode/deep-fried-jekyll-theme) 
 and start modifying the **_config.yml** file. That's it!
 
-If you would like to run the theme locally, please use the commands:
+Alternatively, if you're using 
+[GitHub Pages](https://github.blog/2017-11-29-use-any-theme-with-github-pages/), you can 
+add the following to your site's **config.yml** file:
 
-**To initially install the required gems:**
-
-```terminal
-bundle install
-```
-
-**Once the required gems are installed, run the website:**
-
-```terminal
-bundle exec jekyll serve
+```yaml
+remote_theme: kiltandcode/deep-fried-jekyll-theme
 ```
 
 ## Related Posts
@@ -94,21 +89,21 @@ If you would like to use images in your posts, you can use the **image.html** in
 **assets/img/*[YEAR]*/*[MONTH]*/image.png**
 
 ```yaml
-{%
+{% raw %}{%{% endraw %}
     include image.html
     year='2021'
     month='06'
     file='image.png'
     alt='This is the alternative text for this image'
     caption='This is a caption that will appear below the image'
-%}
+{% raw %}%}{% endraw %}
 ```
 
 If you would like to embed videos in your posts, you can use the **embed-video.html** include:
 
 ```yaml
-{%
+{% raw %}{%{% endraw %}
     include embed-video.html
     src='https://thevideotoembed.com/'
-%}
+{% raw %}%}{% endraw %}
 ```

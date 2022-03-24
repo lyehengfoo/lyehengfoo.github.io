@@ -1,3 +1,10 @@
-/coverletter-academic - Copy.html
-/resume - Copy.html
-/coverletter-academic.html
+*.gem
+.bundle
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+.DS_Store
+resume - Copy.html
+coverletter-academic.html
+coverletter-academic - Copy.html
