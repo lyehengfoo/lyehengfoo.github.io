@@ -1,5 +1,6 @@
 # Site settings
-baseurl: '/deep-fried-jekyll-theme'
+#baseurl: '/deep-fried-jekyll-theme'
+baseurl: '/'
 url: 'https://lyehengfoo.tk'
 title: 'Deep-fried'
 description: 'A minimalist Jekyll theme optimized for readability and performance.'
@@ -49,14 +50,14 @@ logo-title:
 # Header menu
 header-menu:
 - { name: 'Home', url: '/' }
-- { name: 'About', url: '/about' }
-- { name: 'Articles', url: '/articles' }
+- { name: 'About Me', url: '/about' }
+- { name: 'My Articles', url: '/articles' }
 
 # Footer menu
 footer-menu:
 - { name: 'Home', url: '/' }
-- { name: 'About', url: '/about' }
-- { name: 'Articles', url: '/articles' }
+- { name: 'About Me', url: '/about' }
+- { name: 'My Articles', url: '/articles' }
 - { name: 'RSS', url: '/feed.xml' }
 
 # Homepage
@@ -90,8 +91,8 @@ icons:
 # Related posts (only works if you use tags)
 related-posts:
   enabled: true
-  header-text: 'More articles like this...'
-  limit: 3
+  header-text: 'More articles like this ...'
+  limit: 5
   no-related-articles-text: 'We couldn''t find any similar articles!'
 
 # Written on (post info displayed underneath the H1)
