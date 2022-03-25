@@ -5,7 +5,7 @@ url: 'https://lyehengfoo.tk'
 #title: 'Deep-fried'
 #description: 'A minimalist Jekyll theme optimized for readability and performance.'
 #author: 'Steven McLintock'
-title: 'DIY Bug's Hideout'
+title: 'DIY Bug''s Hideout'
 description: 'Hideout for this minimalist DIY bug.'
 author: 'Lye Heng Foo'
 
@@ -66,7 +66,7 @@ footer-menu:
 
 # Homepage
 homepage:
-  header-text: 'DIY Bug's Hideout is the personal website of Lye Heng Foo'
+  header-text: 'DIY Bug''s Hideout is the personal website of Lye Heng Foo'
   intro-text: 'Compatible With <a href="https://pages.github.com">GitHub Pages</a>, 
               <a href="https://github.com/kiltandcode/deep-fried-jekyll-theme">Deep-fried</a> was 
               created by <a href="http://www.kiltandcode.com">Steven McLintock</a> and is 
