@@ -66,8 +66,8 @@ footer-menu:
 
 # Homepage
 homepage:
-  header-text: 'Deep-fried is a minimalist Jekyll theme optimized for readability and performance'
-  intro-text: 'Compatible with <a href="https://pages.github.com">GitHub Pages</a>, 
+  header-text: 'DIY Bug's Hideout is the personal website of Lye Heng Foo'
+  intro-text: 'Compatible With <a href="https://pages.github.com">GitHub Pages</a>, 
               <a href="https://github.com/kiltandcode/deep-fried-jekyll-theme">Deep-fried</a> was 
               created by <a href="http://www.kiltandcode.com">Steven McLintock</a> and is 
               named after <em>"Scotland’s craziest takeaway"</em>, the delicious and 
@@ -86,7 +86,7 @@ articles:
   header-text: 'All Articles'
   excerpt-enabled: true
   read-more-enabled: true
-  read-more-text: 'Read more'
+  read-more-text: 'Read more ...'
 
 # Post Icons
 icons:
@@ -96,11 +96,11 @@ icons:
 related-posts:
   enabled: true
   header-text: 'More articles like this ...'
-  limit: 5
+  limit: 3
   no-related-articles-text: 'We couldn''t find any similar articles!'
 
 # Written on (post info displayed underneath the H1)
 written-on:
   enabled: true
   by-text: 'By'
-  on-text: 'on'
+  on-text: 'On'
