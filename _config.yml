@@ -2,9 +2,12 @@
 #baseurl: '/deep-fried-jekyll-theme'
 baseurl: '/'
 url: 'https://lyehengfoo.tk'
-title: 'Deep-fried'
-description: 'A minimalist Jekyll theme optimized for readability and performance.'
-author: 'Steven McLintock'
+#title: 'Deep-fried'
+#description: 'A minimalist Jekyll theme optimized for readability and performance.'
+#author: 'Steven McLintock'
+title: 'DIY Bug's Hideout'
+description: 'Hideout for this minimalist DIY bug.'
+author: 'Lye Heng Foo'
 
 # Build settings
 permalink: /:year/:month/:day/:title/
@@ -39,7 +42,8 @@ site-manifest: '/site.webmanifest'
 # The logo motif
 logo-motif:
   enabled: true
-  src: '/assets/img/deep-fried-chocolate-motif.png'
+  #src: '/assets/img/deep-fried-chocolate-motif.png'
+  src: '/assets/img/electrocalc-diy-electronics.webp'
   width: '135'
   height: '90'
 
