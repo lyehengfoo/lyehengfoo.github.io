@@ -4,8 +4,8 @@ url: 'https://lyehengfoo.tk'
 #title: 'Deep-fried'
 #description: 'A minimalist Jekyll theme optimized for readability and performance.'
 #author: 'Steven McLintock'
-title: 'DIY Bug''s Hideout'
-description: 'Hideout for this minimalist DIY bug.'
+title: 'DIY Hideout'
+description: 'A special place for all DIY goers.'
 author: 'Lye Heng Foo'
 
 # Build settings
@@ -44,7 +44,7 @@ logo-motif:
   #src: '/assets/img/deep-fried-chocolate-motif.png'
   src: '/assets/img/electrocalc-diy-electronics.webp'
   width: '135'
-  height: '90'
+  height: '135'
 
 # The logo title
 logo-title:
@@ -65,7 +65,7 @@ footer-menu:
 
 # Homepage
 homepage:
-  header-text: 'DIY Bug''s Hideout is the personal website of Lye Heng Foo'
+  header-text: 'DIY Hideout is the personal website of Lye Heng Foo'
   intro-text: 'Compatible With <a href="https://pages.github.com">GitHub Pages</a>, 
               <a href="https://github.com/kiltandcode/deep-fried-jekyll-theme">Deep-fried</a> was 
               created by <a href="http://www.kiltandcode.com">Steven McLintock</a> and is 
@@ -73,7 +73,8 @@ homepage:
               ridiculously unhealthy 
               <a href="https://en.wikipedia.org/wiki/Deep-fried_Mars_bar">Deep-fried 
               Mars bar.</a>'
-  intro-image: 'deep-fried-chocolate.png'
+  #intro-image: 'deep-fried-chocolate.png'
+  intro-image: 'diy-station.jpg'
   latest-articles-enabled: true
   latest-articles-title-text: 'Latest Articles'
   latest-articles-link-enabled: true
@@ -85,7 +86,7 @@ articles:
   header-text: 'All Articles'
   excerpt-enabled: true
   read-more-enabled: true
-  read-more-text: 'Read more ...'
+  read-more-text: 'Read more'
 
 # Post Icons
 icons:
@@ -96,7 +97,7 @@ related-posts:
   enabled: true
   header-text: 'More articles like this ...'
   limit: 3
-  no-related-articles-text: 'We couldn''t find any similar articles!'
+  no-related-articles-text: 'No similar articles found.'
 
 # Written on (post info displayed underneath the H1)
 written-on:
