@@ -1,6 +1,5 @@
 # Site settings
 #baseurl: '/deep-fried-jekyll-theme'
-baseurl: '/'
 url: 'https://lyehengfoo.tk'
 #title: 'Deep-fried'
 #description: 'A minimalist Jekyll theme optimized for readability and performance.'
