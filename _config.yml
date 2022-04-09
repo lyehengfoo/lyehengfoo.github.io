@@ -43,7 +43,7 @@ logo-motif:
   enabled: true
   #src: '/assets/img/deep-fried-chocolate-motif.png'
   #src: '/assets/img/electrocalc-diy-electronics.webp'
-  src: '/assets/img/DIYHideout.png'
+  src: '/assets/img/DIYHideout-270x270.png'
   width: '135'
   height: '135'
 

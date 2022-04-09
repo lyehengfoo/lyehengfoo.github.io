@@ -1,2 +1,12 @@
 deep-fried:
   src: /assets/img/icons/deep-fried.png
+circuit:
+  src: /assets/img/icons/circuit.png
+multimeter:
+  src: /assets/img/icons/multimeter.png
+gear2:
+  src: /assets/img/icons/gear2.png
+gear3:
+  src: /assets/img/icons/gear3.png
+hammer:
+  src: /assets/img/icons/hammer.png
