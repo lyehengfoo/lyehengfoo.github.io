@@ -5,7 +5,7 @@ url: 'https://lyehengfoo.tk'
 #description: 'A minimalist Jekyll theme optimized for readability and performance.'
 #author: 'Steven McLintock'
 title: 'DIY Hideout'
-description: 'A special place for all DIY goers.'
+description: 'A unique hideout place for all DIY goers.'
 author: 'Lye Heng Foo'
 
 # Build settings
@@ -42,7 +42,8 @@ site-manifest: '/site.webmanifest'
 logo-motif:
   enabled: true
   #src: '/assets/img/deep-fried-chocolate-motif.png'
-  src: '/assets/img/electrocalc-diy-electronics.webp'
+  #src: '/assets/img/electrocalc-diy-electronics.webp'
+  src: '/assets/img/DIYHideout.png'
   width: '135'
   height: '135'
 
