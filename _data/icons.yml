@@ -1,12 +1,50 @@
 deep-fried:
   src: /assets/img/icons/deep-fried.png
+
 circuit:
   src: /assets/img/icons/circuit.png
+
 multimeter:
   src: /assets/img/icons/multimeter.png
+
 gear2:
   src: /assets/img/icons/gear2.png
+
 gear3:
   src: /assets/img/icons/gear3.png
+
 hammer:
   src: /assets/img/icons/hammer.png
+
+angular:
+  src: /assets/img/icons/angular.png
+
+azure:
+  src: /assets/img/icons/azure.png
+
+csharp:
+  src: /assets/img/icons/csharp.png
+
+dotnetcore:
+  src: /assets/img/icons/dotnetcore.png
+
+jekyll:
+  src: /assets/img/icons/jekyll.png
+
+kiltandcode:
+  src: /assets/img/icons/kiltandcode.png
+
+powershell:
+  src: /assets/img/icons/powershell.png
+
+retro-windows:
+  src: /assets/img/icons/retro-windows.png
+
+sql-server:
+  src: /assets/img/icons/sql-server.png
+
+sqlite:
+  src: /assets/img/icons/sqlite.png
+
+vscode:
+  src: /assets/img/icons/vscode.png

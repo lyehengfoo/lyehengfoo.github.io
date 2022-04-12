@@ -6,6 +6,7 @@ layout: post
 image: /assets/img/2021/06/deep-fried.png
 icon: deep-fried
 tags: deep-fried
+published: false
 ---
 
 To use the Deep-fried Jekyll theme, simply fork the [GitHub](https://github.com) 
