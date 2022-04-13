@@ -4,8 +4,8 @@ date: 2022-01-01 14:30:00:00 +0800
 author: foo
 layout: post
 icon: gear3
-tags: deep-fried
-#published: false
+tags: template
+published: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor diam vel mauris tempus commodo. Morbi sit amet finibus erat, id fermentum ligula. Integer vel purus a orci facilisis pharetra. Nullam odio diam, iaculis interdum pellentesque nec, laoreet non diam. Integer eget nibh sapien. Phasellus faucibus mattis leo in egestas. Integer convallis risus ac sem hendrerit, sit amet imperdiet justo cursus. Donec fringilla varius justo nec placerat.
@@ -39,8 +39,13 @@ printf("Hello World!");
 [![Coffee](https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 "Beautiful Coffee")](https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
 
 
+How to embed image / video using **image.html** / **embed-video.html** include:
 
-How to embed video using **embed-video.html** include:
+```yaml
+{% raw %}{%{% endraw %}
+include image.html file='profilephoto2.jpg' alt='Lye Heng Foo'
+{% raw %}%}{% endraw %}
+```
 
 ```yaml
 {% raw %}{%{% endraw %}
@@ -48,3 +53,7 @@ How to embed video using **embed-video.html** include:
     src='https://thevideotoembed.com/'
 {% raw %}%}{% endraw %}
 ```
+
+Example:
+
+{% include image.html file='profilephoto2.jpg' alt='Lye Heng Foo' %}

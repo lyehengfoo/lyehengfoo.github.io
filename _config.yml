@@ -26,7 +26,7 @@ stylesheets:
 # Google Analytics
 google-analytics:
   enabled: false
-  id: ''
+  id: 'G-DKESF4DMDC'
 
 # The primary language used by the website
 language: 'en'
@@ -42,7 +42,6 @@ site-manifest: '/site.webmanifest'
 logo-motif:
   enabled: true
   #src: '/assets/img/deep-fried-chocolate-motif.png'
-  #src: '/assets/img/electrocalc-diy-electronics.webp'
   src: '/assets/img/DIYHideout-270x270.png'
   width: '135'
   height: '135'
@@ -56,6 +55,7 @@ header-menu:
 - { name: 'Home', url: '/' }
 - { name: 'About Me', url: '/about' }
 - { name: 'My Articles', url: '/articles' }
+- { name: 'My Resume', url: '/resume.html' }
 
 # Footer menu
 footer-menu:
@@ -66,16 +66,15 @@ footer-menu:
 
 # Homepage
 homepage:
-  header-text: 'DIY Hideout is the personal website of Lye Heng Foo'
-  intro-text: 'Compatible With <a href="https://pages.github.com">GitHub Pages</a>, 
-              <a href="https://github.com/kiltandcode/deep-fried-jekyll-theme">Deep-fried</a> was 
-              created by <a href="http://www.kiltandcode.com">Steven McLintock</a> and is 
-              named after <em>"Scotland’s craziest takeaway"</em>, the delicious and 
-              ridiculously unhealthy 
-              <a href="https://en.wikipedia.org/wiki/Deep-fried_Mars_bar">Deep-fried 
-              Mars bar.</a>'
-  #intro-image: 'deep-fried-chocolate.png'
-  intro-image: 'diy-station.jpg'
+  header-text: 'Welcome to DIY Hideout'
+  intro-text: 'DIY Hideout  is the personal website of Lye Heng Foo.
+               Lye Heng is a Malaysian freelance primarily working on web design & software app development.
+               He is familiar with many open-source applications and software technologies, and
+               he loves to tinker with several software technologies.
+               On his freetime, he is a hobbyist working on many DIY projects and repairing broken stuff.
+               He loves building automation projects using Arduino and ESP8266 micro-controllers.
+               And he also loves to share about IT and computing latest technologies with his friends.'
+  intro-image: 'diy-workbench-crop-small.jpg'
   latest-articles-enabled: true
   latest-articles-title-text: 'Latest Articles'
   latest-articles-link-enabled: true
