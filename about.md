@@ -40,4 +40,4 @@ invaluable knowledge 😀.
 
 ~
 
-<div align="center"><button type="button" onclick="document.location='/resume.html'">Lye Heng's Resume</button></div>
+<div align="center"><button type="button" onclick="document.location='/resume.html'">Lye Heng's Full Resume</button></div>

@@ -55,14 +55,14 @@ header-menu:
 - { name: 'Home', url: '/' }
 - { name: 'About Me', url: '/about' }
 - { name: 'My Articles', url: '/articles' }
-- { name: 'My Resume', url: '/resume.html' }
+#- { name: 'My Resume', url: '/resume.html' }
 
 # Footer menu
 footer-menu:
 - { name: 'Home', url: '/' }
 - { name: 'About Me', url: '/about' }
 - { name: 'My Articles', url: '/articles' }
-- { name: 'My Resume', url: '/resume.html' }
+#- { name: 'My Resume', url: '/resume.html' }
 - { name: 'RSS', url: '/feed.xml' }
 
 # Homepage
