@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lyeheng
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lyehengfoo.tk
+  * I am lyeheng (https://keybase.io/lyeheng) on keybase.
+  * I have a public key ASAokkUKh-utv2O8A_H7vKhCAfJ8kiSxJY_Uc9krMqO6bwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202892450a87ebadbf63bc03f1fbbca84201f27c9224b1258fd473d92b32a3ba6f0a",
+      "host": "keybase.io",
+      "kid": "01202892450a87ebadbf63bc03f1fbbca84201f27c9224b1258fd473d92b32a3ba6f0a",
+      "uid": "8a8474d7eb5564a7d817f957d8b23a19",
+      "username": "lyeheng"
+    },
+    "merkle_root": {
+      "ctime": 1655904433,
+      "hash": "740bfe0a0f702f7883d232d7277998a1ca44c44f87607188995c36fccbfc3e236cae376898d096cd6165278cf6d2c7fbc9c062b2b716d64693a4d460580581d7",
+      "hash_meta": "c7ac4ff6e8c5aa69b32961ab5ce629827ea7744ebae7d6167d8bcc21aac7be71",
+      "seqno": 22718559
+    },
+    "service": {
+      "entropy": "9eWuEomFmOxr92is4SxCjkqQ",
+      "hostname": "lyehengfoo.tk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1655904457,
+  "expire_in": 504576000,
+  "prev": "9f12f4121703330247ecb416a388678cc1631ca50f99246e099ab29940d9def3",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKJJFCofrrb9jvAPx+7yoQgHyfJIksSWP1HPZKzKjum8Kp3BheWxvYWTESpcCBcQgnxL0EhcDMwJH7LQWo4hnjMFjHKUPmSRuCZqymUDZ3vPEIHKAYuQ0bjHmbSFqypIqqyrXCYVuihT0OeoIX1u5AlbZAgHCo3NpZ8RA9sJ43rdF7Hr4O5fKF/luUPhh6DBHackExg+U4r67C44K7s3pl90ReNr+FCvLKq3sae905awKH8wDszhJcTpuAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFC5JLDgFxGYhEC1y7/AeyU4wpPXrFKKW587mi8+ONmqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lyeheng
+
+==================================================================
