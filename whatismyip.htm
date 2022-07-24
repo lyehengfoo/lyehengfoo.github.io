@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Method 1:</p>
+<script type="text/javascript" src="http://l2.io/ip.js"></script>
+
+
+<p>Method 2:</p>
+<script>
+function getIP(json) {
+  document.write("My public IP address is: " + json.ip);
+}
+</script>
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+
+
+<p>Method 3:</p>
+
+<p>Client side IP geolocation using <a href="http://ipinfo.io">ipinfo.io</a></p>
+
+<hr/>
+<div id="ip"></div>
+<div id="address"></div>
+<hr/>Full response: <pre id="details"></pre>
+
+<script>
+$.get("http://ipinfo.io", function (response) {
+    $("#ip").html("IP: " + response.ip);
+    $("#address").html("Location: " + response.city + ", " + response.region);
+    $("#details").html(JSON.stringify(response, null, 4));
+}, "jsonp");
+</script>
+
+</body>
+</html>
