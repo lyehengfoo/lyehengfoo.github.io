@@ -1,6 +1,6 @@
 ---
-title: "Post Template"
-date: 2022-01-01 14:30:00:00 +0800
+# title: "Post Template"
+# date: 2022-01-01 14:30:00:00 +0800
 author: foo
 layout: post
 icon: gear3
@@ -14,17 +14,22 @@ Sed id congue nisl. In interdum elit vitae odio auctor, in bibendum nulla viverr
 
 [GitHub](https://github.com) 
 
-## Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 *test1*
-
 **test2**
-
 ***test3***
-
 
 ```c
 printf("Hello World!");
+```
+
+```css
+h1, h2 { }
 ```
 
 ```
