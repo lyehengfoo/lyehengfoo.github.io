@@ -3,8 +3,8 @@ title: "CSS Advanced Selectors Part 1 - The Combinator Selectors"
 # date: 2022-01-01 14:30:00:00 +0800
 author: foo
 layout: post
-icon: gear3
-tags: web, css
+icon: web
+tags: web, html, css
 # published: false
 ---
 

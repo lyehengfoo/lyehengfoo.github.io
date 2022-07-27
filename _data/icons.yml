@@ -48,3 +48,6 @@ sqlite:
 
 vscode:
   src: /assets/img/icons/vscode.png
+
+web:
+  src: /assets/img/icons/web.png
