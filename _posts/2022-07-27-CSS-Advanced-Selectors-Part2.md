@@ -53,7 +53,8 @@ input:focus {}   /* for when the input element is in focus */
 ```
 
 For a more complete list of all the available pseudo-classes to use, you may visit 
-[W3Schools CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+<a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank" rel="noopener">
+W3Schools CSS Pseudo-classes</a>
 
 ## What are Pseudo-elements?
 
@@ -78,8 +79,8 @@ pseudo-classes starts with a single colon (:).
 ```
 
 For a more complete list of all the available pseudo-elements to use, you may visit 
-[W3Schools CSS Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
-
+<a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank" rel="noopener">
+W3Schools CSS Pseudo-elements</a>
 
 ## Examples of common usages of Pseudo-elements
 
