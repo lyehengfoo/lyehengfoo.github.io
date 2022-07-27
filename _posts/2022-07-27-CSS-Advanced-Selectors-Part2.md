@@ -53,7 +53,7 @@ input:focus {}   /* for when the input element is in focus */
 ```
 
 For a more complete list of all the available pseudo-classes to use, you may visit 
-[W3Schools CSS Pseudo-classes] (https://www.w3schools.com/css/css_pseudo_classes.asp)
+[W3Schools CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
 
 ## What are Pseudo-elements?
 
