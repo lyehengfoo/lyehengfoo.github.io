@@ -77,7 +77,11 @@ pseudo-classes starts with a single colon (:).
 ::selection {}   /* matches the portion of an element that is selected by user */
 ```
 
-## Examples of usages of Pseudo-elements
+For a more complete list of all the available pseudo-elements to use, you may visit 
+[W3Schools CSS Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
+
+
+## Examples of common usages of Pseudo-elements
 
 The following example insert a small bulleye image before the start of the heading h1 text.
 
