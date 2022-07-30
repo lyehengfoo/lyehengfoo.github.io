@@ -63,6 +63,7 @@ footer-menu:
 - { name: 'About Me', url: '/about' }
 - { name: 'My Articles', url: '/articles' }
 #- { name: 'My Resume', url: '/resume.html' }
+- { name: 'What Is My IP', url: '/whatismyip.html' }
 - { name: 'RSS', url: '/feed.xml' }
 
 # Homepage
