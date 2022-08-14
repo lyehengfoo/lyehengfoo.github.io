@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <html>
-<title>Lye Heng Foo's Resume</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 
-<style>
+<!-- Print using Chrome with setting -->
+<!-- Custom scale: 79% -->
+<!-- Custom margin: top=0.38" & bottom=0.38", left=0.18", right=0.28" -->
 
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+<head>
+  <title>Lye Heng Foo's Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 
-nav {
-  display: block;
-  color: #777;
-  background-color: #f7f7f7;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-nav a:hover {
-  color: #f7f7f7;
-  background-color: #777;
-}
+  <style>
 
-.accordion {
-  background-color: #f7f7f7;
-  //color: #777;
-  cursor: pointer;
-  padding: 10px 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  //font-size: 15px;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #eee;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin: 0 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.panel {
-  padding: 0 18px;
-  //background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  border: solid #bbb 1px;
-}
-
-.onlyforprint {
-  display: none;
-}
-
-@media print {
-  /* For printout - Hide summary, since already show the panel full details. */
-  button.accordion {
-    display: none;
+  html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 11pt;
   }
-  /* For printout, expand all the hidden panels. */
+
+  nav {
+    display: block;
+    color: #777;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #f7f7f7;
+    background-color: #777;
+  }
+
+  .accordion {
+    background-color: #f7f7f7;
+    //color: #777;
+    cursor: pointer;
+    padding: 10px 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    //font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: #eee;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin: 0 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
   .panel {
-    max-height: 600px;
+    padding: 0 18px;
+    //background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: solid #bbb 1px;
   }
+
   .onlyforprint {
-    display: inline;
-  }
-  .onlyforscreen {
     display: none;
   }
-}
-</style>
+
+  @media print {
+    /* For printout - Hide summary, since already show the panel full details. */
+    button.accordion {
+      display: none;
+    }
+    /* For printout, expand all the hidden panels. */
+    .panel {
+      max-height: 600px;
+    }
+    .onlyforprint {
+      display: inline;
+    }
+    .onlyforscreen {
+      display: none;
+    }
+  }
+  </style>
+  
+</head>
 
 <body class="w3-light-grey">
 
@@ -119,7 +130,7 @@ nav a:hover {
 
         <div class="w3-container">
           <h2 class="w3-text-indigo w3-center">Lye Heng Foo</h2>
-          <p><i class="fa-solid fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i>Freelance Services &amp; Software Developer</p>
+          <p><i class="fa-solid fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i>Web &amp; Software Developer</p>
           <p><i class="fa-solid fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i>Penang, Malaysia</p>
           <p><i class="fa-solid fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="mailto:lyeheng@gmail.com" target="_blank">lyeheng@gmail.com</a></p>
           <p><i class="fa-solid fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i><a href="https://wa.me/60164935410" target="_blank">+60-16-4935410</a></p>
@@ -237,7 +248,7 @@ nav a:hover {
         </div>
 
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>IC Design Engineer (Senior Member of Technical Staff) / Marvell Semiconductor</b></h5>
+          <h5 class="w3-opacity"><b>IC Design Engineer (Senior Technical Staff) / Marvell Semiconductor</b></h5>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2010 - Jul 2017</h6>
           <button class="accordion">Technical Lead, Physical Design Engineering, Design Automation Tools Development &amp; Design Automation Support</button>
           <div class="panel">
@@ -255,8 +266,10 @@ nav a:hover {
           <hr>
         </div>
 
+        <div class="onlyforprint">&nbsp;<br>&nbsp;</div>
+
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Design Automation Engineer (Member of Technical Staff) / Altera (part of Intel Corp now)</b></h5>
+          <h5 class="w3-opacity"><b>Design Automation Engineer (Technical Staff) / Altera (part of Intel Corp now)</b></h5>
           <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2000 - Aug 2010</h6>
           <button class="accordion">Design Automation Technical Lead, Design Methodology Development, EDA Tools Evaluation and Qualification, Backend Tools and Flows Development & Project Management</button>
           <div class="panel">
