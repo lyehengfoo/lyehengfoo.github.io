@@ -13,25 +13,28 @@ tags: web, mysql, php
 If you have access to phpMyAdmin, this would be the simplest method.
 
 Steps to backup:
-1. Select the Database.
-2. Click on the `Export` tab.
-3. Select the approriate Export options by using `Custom` Export method. Some useful options:
-    - Select zipped/gzipped for `Compression`.
-    - Turn on `Add CREATE DATABASE / USE statement`.
-    - Turn on `Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT / TRIGGER statement`.
-4. Click on the `Export` button.
+1. Select the database.
+2. Click on the *Export* tab.
+3. Select the approriate Export options by selecting *Custom* in the *Export method*. Some useful options:
+    - Select zipped/gzipped for *Compression*.
+    - Turn on *Add CREATE DATABASE / USE statement*.
+    - Turn on *Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT / TRIGGER statement*.
+4. Click on the *Export* button.
 
 Steps to restore:
-1. Remove the corrupted database by clicking on the `Operations` tab, goto the `Remove database` section, and choose the `Drop the database (DROP)`.
-2. Click on the `Import` tab.
-3. Choose the previously exported file e.g. backup.sql.zip.
+1. Remove the corrupted database
+    - Click on the *Operations* tab.
+    - Goto the *Remove database* section.
+    - Then, click on the *Drop the database (DROP)* link.
+2. Click on the *Import* tab.
+3. Select the previously exported file e.g. *backup.sql.zip*.
 4. We can leave all the options as default.
-5. Click on the `Import` button.
+5. Click on the *Import* button.
 
 
-## Backup using SQL command using PHP script
+## Backup with SQL SELECT command in a PHP script
 
-We can dump out the data to an output file using SQL SELECT command. If you need to dump all the whole
+We can dump out the data to an output file by using SQL SELECT command. If you need to dump all the whole
 database, you will need to loop it for each table.
 
 Here is an example of php script to backup the table wp_options.
@@ -95,7 +98,7 @@ And to load data back into MySQL, we use the LOAD DATA INFILE command.
 ?>
 ```
 
-## Backup using mysqldump utility
+## Backup using the mysqldump utility
 
 We can also use the utility `mysqldump`. Here is an example of `mysqldump` usage.
 
