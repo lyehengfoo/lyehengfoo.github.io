@@ -11,7 +11,7 @@ Lye Heng is a Malaysian freelance primarily working on web design and software a
 He is familiar with many open-source applications and software technologies,
 and he loves to tinker around cloud applications e.g. Google Cloud Platform (GCP), Amazon Web Services (AWS).
 
-He owns a small web and software development company, [TagMe Tech Solutions](https://tagmetech.tk/).
+He owns a small web and software development company, [TagMe Tech Solutions](https://tagmetech.github.io/).
 If you are looking for someone to help you with your web project or software project, you can get in touch with him.
 
 He was originally from Ipoh, Perak, Malaysia, and he moved to Penang, Malaysia in April 1998, and has been living there since then.
