@@ -15,12 +15,16 @@ After the computer is booted in Ubuntu, open a Terminal window, and type the fol
 
 ## Re-installing GRUB 
    
-    # Example (if Linux is installed in /dev/sda5)
+    # Example (for the case Linux is installed at /dev/sda5):
+    # Otherwise, change all /dev/sda5 to your /dev/sda<#> or /dev/sdb<#>
+    # NOTE: If not sure which partition has Linux been installed on,
+    # you may run 'fdisk -l' to view partition information first.
+    
     sudo mount /dev/sda5 /mnt
     sudo mount --bind /dev /mnt/dev
     sudo mount --bind /sys /mnt/sys
     sudo mount --bind /proc /mnt/proc
-    sudo mount /dev/sdaX /mnt/boot   #only if /boot is mounted as separate partition
+    sudo mount /dev/sdaX /mnt/boot   #only if /boot is mounted as separate partition at /dev/sdaX
 
     sudo chroot /mnt
     sudo update-grub
