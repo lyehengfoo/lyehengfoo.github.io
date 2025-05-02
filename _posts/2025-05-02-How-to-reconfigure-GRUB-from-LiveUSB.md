@@ -1,15 +1,15 @@
 ---
-title: "How To Reconfigure GRUB from LiveUSB or LiveCD"
+title: "How To Reconfigure GRUB from LiveUSB"
 # date: 2022-01-01 14:30:00:00 +0800
 author: foo
 layout: post
 icon: linux
-tags: linux, ubuntu, windows
+tags: linux, ubuntu, windows, grub
 # published: false
 ---
 
 On a dual boot computer, a corrupted GRUB may happen after performing a major Windows update.
-In order to fix the broken GRUB, please boot using a Ubuntu LiveUSB or LiveCD.
+In order to fix the broken GRUB, please boot using a Ubuntu LiveUSB (or LiveCD).
 
 After the computer is booted in Ubuntu, open a Terminal window, and type the following commands to re-install GRUB.
 
